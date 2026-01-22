@@ -238,12 +238,10 @@ THE COUPLES EXAMEN — Five Movements
    - "A moment I felt drained/heavy today was..." (desolation)
    Share if comfortable.
 
-5. LOOK TOWARD TOMORROW
-   Each person shares: "One thing I could use grace for tomorrow..."
-   You might gently place a hand on your spouse as they share —
-   a quiet intercession.
+5. ASK FOR GRACE
+   Each person prays aloud: "Lord, help me tomorrow with..."
 
-Close with a simple prayer: "Lord, bless our marriage. Amen."
+Close together: "Lord, together we look to you. Amen."
 ```
 
 > *"Notice what's happening here: each movement is an invitation to 'show up.' You're not fixing each other. You're not giving advice. You're witnessing each other — with curiosity and compassion — and inviting God into your marriage.*
@@ -277,10 +275,9 @@ BREAKOUT #2: PRAY THE COUPLES EXAMEN TOGETHER (10 minutes)
    - "A moment of life/energy today..." (consolation)
    - "A moment of drain/heaviness today..." (desolation)
 
-5. LOOK FORWARD — Each share: "One thing I could use grace for tomorrow..."
-   (You might place a hand on your spouse as they share.)
+5. GRACE — Each prays aloud: "Lord, help me tomorrow with..."
 
-Close: "Lord, bless our marriage. Amen."
+Close together: "Lord, together we look to you. Amen."
 
 Take your time. No need to rush.
 ```
@@ -370,11 +367,10 @@ Before bed or at a set time, sit together without screens.
    - A moment of life/consolation today
    - A moment of heaviness/desolation today
 
-5. LOOK TOWARD TOMORROW
-   Each share: "Tomorrow, I could use grace for..."
-   Place a hand on your spouse — a quiet intercession.
+5. ASK FOR GRACE
+   Each prays aloud: "Lord, help me tomorrow with..."
 
-CLOSE: "Lord, bless our marriage. Amen."
+CLOSE TOGETHER: "Lord, together we look to you. Amen."
 
 --
 
