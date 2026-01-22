@@ -19,14 +19,14 @@
 
 | Time | Segment | Duration |
 |------|---------|----------|
-| 0:00 | Opening & Grounding Prayer | 10 min |
-| 0:10 | Check-In | 10 min |
-| 0:20 | Teaching: "Showing Up" & Ignatian Connection | 12 min |
-| 0:32 | First Couple Breakout | 16 min |
-| 0:48 | Return & Introducing the Couples Examen | 10 min |
-| 0:58 | Second Couple Breakout: Practicing the Examen | 20 min |
-| 1:18 | Return & Whole Group Sharing | 5 min |
-| 1:23 | Closing Prayer | 7 min |
+| 0:00 | Opening & Grounding Prayer | 5 min |
+| 0:05 | Check-In | 40 min |
+| 0:45 | Teaching: "Showing Up" & Ignatian Connection | 10 min |
+| 0:55 | First Couple Breakout | 10 min |
+| 1:05 | Return & Introducing the Couples Examen | 8 min |
+| 1:13 | Second Couple Breakout: Practicing the Examen | 10 min |
+| 1:23 | Return & Whole Group Sharing | 3 min |
+| 1:26 | Closing Prayer | 4 min |
 | 1:30 | End |  |
 
 ---
@@ -35,7 +35,7 @@
 
 ---
 
-### OPENING & GROUNDING PRAYER (10 minutes)
+### OPENING & GROUNDING PRAYER (5 minutes)
 
 #### Welcome (2 minutes)
 
@@ -43,7 +43,7 @@
 >
 > *Before we begin, I invite you to find a comfortable position. If you're sitting near your spouse, you might gently place a hand on their arm or hold hands — whatever feels natural."*
 
-#### Grounding Prayer: Settling Body, Heart, and Mind (8 minutes)
+#### Grounding Prayer: Settling Body, Heart, and Mind (3 minutes)
 
 **🎵 MUSIC CUE**: Begin gentle instrumental music
 
@@ -77,7 +77,7 @@
 
 ---
 
-### CHECK-IN (10 minutes)
+### CHECK-IN (40 minutes)
 
 > *"Before we dive into our theme for tonight, let's take some time to check in with one another. As is our CLC practice, I'll offer three questions. Share as you feel comfortable — just a few sentences each so everyone has a chance to speak."*
 
@@ -89,13 +89,13 @@
 >
 > *"3. Where have you noticed God — in prayer, in others, in the ordinary?"*
 
-**FACILITATOR NOTE**: Go around the group, allowing each person (not couple) to share briefly. Keep it moving — about 1 minute per person. You may need to gently keep time if someone goes long.
+**FACILITATOR NOTE**: Go around the group, allowing each person (not couple) to share. With 40 minutes, you have generous time — about 4 minutes per person for 10 people. Allow for deeper sharing and follow-up questions.
 
 ---
 
-### TEACHING: "SHOWING UP" & THE IGNATIAN CONNECTION (12 minutes)
+### TEACHING: "SHOWING UP" & THE IGNATIAN CONNECTION (10 minutes)
 
-#### Introducing Emotional Agility (5 minutes)
+#### Introducing Emotional Agility (4 minutes)
 
 > *"Susan David is a psychologist at Harvard who has spent her career studying how people navigate their inner world — particularly their emotions. She developed a framework called 'Emotional Agility,' and tonight we're focusing on its foundation: what she calls 'showing up.'*
 >
@@ -121,7 +121,7 @@
 >
 > *'Showing up' is the alternative. It means turning toward your emotions with curiosity: 'What am I actually feeling right now? What is this feeling trying to tell me?' It means holding your emotions with compassion — not drowning in them, not dismissing them."*
 
-#### The Ignatian Connection (7 minutes)
+#### The Ignatian Connection (6 minutes)
 
 > *"Here's what's beautiful for us as a CLC community: Ignatius figured this out 500 years ago.*
 >
@@ -143,15 +143,15 @@
 > *And when was the last time you created space for your spouse to show up to you?"*
 
 **Transition:**
-> *"In a moment, I'm going to send you into breakout rooms — just you and your spouse. You'll have about 16 minutes for your first conversation. Before I send you, let me give you the questions."*
+> *"In a moment, I'm going to send you into breakout rooms — just you and your spouse. You'll have about 10 minutes for your first conversation. Before I send you, let me give you the questions."*
 
 ---
 
-### FIRST COUPLE BREAKOUT: Understanding How We Show Up (16 minutes)
+### FIRST COUPLE BREAKOUT: Understanding How We Show Up (10 minutes)
 
 #### Setup (before sending to breakouts)
 
-> *"You'll have 16 minutes together. Here are your questions — take them one at a time, and give each person space to share. Listen with curiosity, not problem-solving.*
+> *"You'll have 10 minutes together. Here are your questions — take them one at a time, and give each person space to share. Listen with curiosity, not problem-solving.*
 >
 > *I'll put these in the chat so you have them."*
 
@@ -159,7 +159,7 @@
 
 **Post in chat:**
 ```
-BREAKOUT #1 QUESTIONS (16 minutes)
+BREAKOUT #1 QUESTIONS (10 minutes)
 
 1. When it comes to difficult emotions, do you tend to be more of a "bottler" (pushing aside, minimizing) or a "brooder" (getting stuck, replaying)? Share an example if you're comfortable.
 
@@ -174,11 +174,11 @@ Take turns. Listen with curiosity, not advice.
 
 **🎵 MUSIC CUE**: Optional — have music playing as they enter breakouts
 
-**FACILITATOR NOTE**: Set Zoom timer for 16 minutes with 2-minute warning.
+**FACILITATOR NOTE**: Set Zoom timer for 10 minutes with 2-minute warning.
 
 ---
 
-### RETURN & INTRODUCING THE COUPLES EXAMEN (10 minutes)
+### RETURN & INTRODUCING THE COUPLES EXAMEN (8 minutes)
 
 #### Re-gathering (2 minutes)
 
@@ -188,7 +188,7 @@ Take turns. Listen with curiosity, not advice.
 
 **Wait for a few chat responses. Acknowledge them briefly.**
 
-#### Teaching: The Couples Examen (8 minutes)
+#### Teaching: The Couples Examen (6 minutes)
 
 > *"One of the outcomes I hoped for tonight is that you'd walk away with a practice you can do together at home. Something simple. Something sustainable. Something rooted in our Ignatian tradition.*
 >
@@ -232,11 +232,11 @@ Close with a simple prayer: "Lord, bless our marriage. Amen."
 
 > *"Notice what's happening here: each movement is an invitation to 'show up.' You're not fixing each other. You're not giving advice. You're witnessing each other — with curiosity and compassion — and inviting God into your marriage.*
 >
-> *In a moment, you're going to actually practice this together. You'll have about 20 minutes — enough time to go through all five movements without rushing."*
+> *In a moment, you're going to actually practice this together. You'll have about 10 minutes — move through the steps at a comfortable pace."*
 
 ---
 
-### SECOND COUPLE BREAKOUT: Practicing the Couples Examen (20 minutes)
+### SECOND COUPLE BREAKOUT: Practicing the Couples Examen (10 minutes)
 
 #### Setup
 
@@ -248,7 +248,7 @@ Close with a simple prayer: "Lord, bless our marriage. Amen."
 
 **Post in chat:**
 ```
-BREAKOUT #2: PRAY THE COUPLES EXAMEN TOGETHER (20 minutes)
+BREAKOUT #2: PRAY THE COUPLES EXAMEN TOGETHER (10 minutes)
 
 1. SETTLE — Breathe together. Acknowledge God's presence.
 
@@ -271,11 +271,11 @@ Take your time. No need to rush.
 
 **🎵 MUSIC CUE**: Gentle instrumental in breakouts (if possible) or as they transition
 
-**FACILITATOR NOTE**: Set Zoom timer for 20 minutes with 2-minute warning.
+**FACILITATOR NOTE**: Set Zoom timer for 10 minutes with 2-minute warning.
 
 ---
 
-### RETURN & WHOLE GROUP SHARING (5 minutes)
+### RETURN & WHOLE GROUP SHARING (3 minutes)
 
 #### Re-gathering
 
@@ -296,61 +296,31 @@ Take your time. No need to rush.
 
 ---
 
-### CLOSING PRAYER (7 minutes)
+### CLOSING PRAYER & NEXT STEPS (4 minutes)
 
-#### Transition
+#### Brief Closing Prayer (2 minutes)
 
-> *"Let's close our time together in prayer. I invite you to once again get comfortable. If you'd like, you can hold your spouse's hand."*
+> *"Let's close our time together in prayer."*
 
-**🎵 MUSIC CUE**: Begin gentle instrumental music (softer than before)
+**🎵 MUSIC CUE**: Begin gentle instrumental music
 
-#### Gratitude (3 minutes)
-
-> *"We begin where the Examen always begins — with gratitude.*
+> *"Loving God, thank you for this time together. Thank you for the gift of marriage and for each couple here tonight.*
 >
-> *In the silence of your heart, call to mind one thing from tonight you're grateful for. It might be something your spouse shared... a moment of connection... a new insight... simply the gift of this time together.*
+> *Bless them as they leave. Give them courage to keep showing up — to themselves, to each other, and to you. May the Couples Examen become a holy rhythm in their homes.*
 >
-> *Hold that gratitude gently before God."*
-
-**(30 seconds of silence)**
-
-> *"If you'd like, you can unmute and speak your gratitude aloud in one word or phrase. Or you can hold it silently. Let's offer our gratitude together..."*
-
-**(Allow those who want to share to speak briefly — just words/phrases, not sentences)**
-
-> *"Thank you, Lord, for these gifts."*
-
-#### Offering Intentions (4 minutes)
-
-> *"Now, I invite you to bring before God any intentions on your heart — for your marriage, for your family, for something you're carrying.*
->
-> *In the silence, lift these to God."*
-
-**(30 seconds of silence)**
-
-> *"Again, if you'd like, you can speak an intention aloud — just a word or phrase. We hold these together as a community, trusting them to God's care."*
-
-**(Allow those who want to share to speak briefly)**
-
-> *"Lord, we entrust these intentions to you."*
-
-#### Blessing (1 minute)
-
-> *"Let us pray:*
->
-> *God of love, you brought each of these couples together. You have been present in their joys and their struggles, in the moments of deep connection and the moments of distance.*
->
-> *Bless them now as they leave this time together. Give them courage to keep showing up — to themselves, to each other, and to you. When they are tempted to bottle, give them voice. When they are tempted to brood, give them perspective. When they need grace, pour it out in abundance.*
->
-> *May the Couples Examen become a holy rhythm in their homes — a way of inviting you into the center of their marriages, again and again.*
+> *We lift to you any intentions on our hearts tonight... (brief pause)*
 >
 > *We ask this in Jesus' name. Amen."*
 
-**🎵 MUSIC CUE**: Let music play softly for a moment, then fade
+**🎵 MUSIC CUE**: Fade music
 
-#### Send-off
+#### Scheduling & Send-off (2 minutes)
 
-> *"Thank you for being here tonight. Thank you for taking this time for your marriage. May you continue to show up — with curiosity, with compassion, with courage — to one another.*
+> *"Before we go — let's confirm our next meeting date. When works for everyone?"*
+
+**FACILITATOR NOTE**: Briefly confirm the next meeting date/time. Use Zoom chat or quick verbal poll if needed.
+
+> *"Thank you for being here tonight. May you continue to show up — with curiosity, with compassion, with courage — to one another.*
 >
 > *Go in peace."*
 
@@ -406,7 +376,7 @@ The Couples Examen is showing up to each other.
 ### Zoom Setup
 - Create breakout rooms set to manual assignment (1 couple per room)
 - Enable "Allow participants to return to main session at any time"
-- Set timers: 16 min for Breakout #1, 20 min for Breakout #2
+- Set timers: 10 min for Breakout #1, 10 min for Breakout #2
 - Have questions/Examen steps ready to paste into chat
 
 ### Pacing Tips
