@@ -70,11 +70,9 @@
 >
 > *In the spirit of St. Ignatius, let us ask for the grace we need tonight. We echo the words of Psalm 139..."*
 
-**Scripture — Psalm 139:23-24**:
+**Scripture — Psalm 139:23**:
 > *"Probe me, God, know my heart;*
-> *try me, know my thoughts.*
-> *See if there is a wicked path in me;*
-> *lead me along an ancient path."*
+> *try me, know my thoughts."*
 
 **Closing the prayer**:
 > *"Loving God, we invite you to search our hearts tonight. We thank you for the gift of marriage — for the one sitting beside us or near us. We ask for the grace to show up fully: to ourselves, to you, and to each other. Open our hearts to see what you want us to see. Give us courage to be honest and tenderness to receive one another. We ask this through Christ our Lord. Amen."*
