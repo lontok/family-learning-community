@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showing Up Together | Couples Session</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%);
+            color: #f0e6d3;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .slide {
+            display: none;
+            min-height: 100vh;
+            padding: 60px 80px;
+            flex-direction: column;
+            justify-content: center;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .slide.active {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            color: #d4af37;
+            margin-bottom: 30px;
+            font-weight: normal;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 2.8rem;
+            color: #d4af37;
+            margin-bottom: 40px;
+            font-weight: normal;
+        }
+
+        h3 {
+            font-size: 2rem;
+            color: #e8d5b7;
+            margin-bottom: 25px;
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 1.8rem;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            max-width: 900px;
+        }
+
+        .subtitle {
+            font-size: 1.6rem;
+            color: #b8a88a;
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            font-size: 1.7rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            padding-left: 40px;
+            position: relative;
+        }
+
+        li::before {
+            content: "~";
+            position: absolute;
+            left: 0;
+            color: #d4af37;
+            font-size: 1.5rem;
+        }
+
+        .highlight {
+            color: #d4af37;
+            font-weight: bold;
+        }
+
+        .quote {
+            font-style: italic;
+            border-left: 4px solid #d4af37;
+            padding-left: 30px;
+            margin: 30px 0;
+            font-size: 1.6rem;
+            color: #e8d5b7;
+        }
+
+        .centered {
+            text-align: center;
+            align-items: center;
+        }
+
+        .centered h1, .centered h2, .centered p {
+            max-width: 100%;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-top: 30px;
+        }
+
+        .column h3 {
+            color: #d4af37;
+            margin-bottom: 20px;
+        }
+
+        .column li {
+            font-size: 1.5rem;
+        }
+
+        .examen-step {
+            background: rgba(212, 175, 55, 0.1);
+            border-radius: 15px;
+            padding: 30px 40px;
+            margin-bottom: 25px;
+            border-left: 5px solid #d4af37;
+        }
+
+        .examen-step .number {
+            font-size: 1.2rem;
+            color: #d4af37;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+
+        .examen-step .title {
+            font-size: 2rem;
+            color: #f0e6d3;
+            margin-bottom: 10px;
+        }
+
+        .examen-step .description {
+            font-size: 1.4rem;
+            color: #b8a88a;
+        }
+
+        .breakout-box {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 50px;
+            margin-top: 20px;
+        }
+
+        .breakout-box h3 {
+            color: #d4af37;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+
+        .breakout-box li {
+            font-size: 1.6rem;
+            margin-bottom: 25px;
+        }
+
+        .prayer-text {
+            font-size: 1.6rem;
+            line-height: 2;
+            font-style: italic;
+            max-width: 800px;
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 30px;
+            right: 40px;
+            display: flex;
+            gap: 15px;
+            z-index: 100;
+        }
+
+        .nav-btn {
+            background: rgba(212, 175, 55, 0.2);
+            border: 2px solid #d4af37;
+            color: #d4af37;
+            padding: 15px 25px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-family: 'Georgia', serif;
+        }
+
+        .nav-btn:hover {
+            background: #d4af37;
+            color: #1a1a2e;
+        }
+
+        .progress {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 4px;
+            background: #d4af37;
+            transition: width 0.3s ease;
+        }
+
+        .slide-counter {
+            position: fixed;
+            bottom: 35px;
+            left: 40px;
+            font-size: 1rem;
+            color: #6b6b6b;
+            letter-spacing: 2px;
+        }
+
+        .icon {
+            font-size: 4rem;
+            margin-bottom: 30px;
+        }
+
+        .small-text {
+            font-size: 1.3rem;
+            color: #8a8a8a;
+            margin-top: 20px;
+        }
+
+        .timer-note {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            background: rgba(212, 175, 55, 0.15);
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 1rem;
+            color: #d4af37;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .grid-3 .card {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .grid-3 .card h4 {
+            color: #d4af37;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+
+        .grid-3 .card p {
+            font-size: 1.2rem;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- SLIDE 1: Title -->
+    <div class="slide active centered">
+        <div class="icon">&#10013;</div>
+        <h1>Showing Up Together</h1>
+        <p class="subtitle">An Ignatian Evening for Couples</p>
+        <p style="font-size: 1.3rem; color: #8a8a8a; margin-top: 60px;">
+            Emotional Agility &bull; The Couples Examen &bull; Sacred Connection
+        </p>
+    </div>
+
+    <!-- SLIDE 2: Welcome -->
+    <div class="slide centered">
+        <h2>Welcome</h2>
+        <p style="text-align: center;">Tonight we explore what it means to <span class="highlight">"show up"</span></p>
+        <div class="grid-3">
+            <div class="card">
+                <h4>To Ourselves</h4>
+                <p>Facing our emotions with honesty</p>
+            </div>
+            <div class="card">
+                <h4>To God</h4>
+                <p>Bringing our whole selves to prayer</p>
+            </div>
+            <div class="card">
+                <h4>To Each Other</h4>
+                <p>Creating space for true connection</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 3: Grounding Invitation -->
+    <div class="slide centered">
+        <h2>Let Us Begin</h2>
+        <p class="prayer-text">
+            Find a comfortable position.<br><br>
+            If you're near your spouse, you might gently<br>
+            hold hands or place a hand on their arm.
+        </p>
+        <p class="small-text" style="margin-top: 50px;">~ Opening Prayer ~</p>
+    </div>
+
+    <!-- SLIDE 4: Body -->
+    <div class="slide centered">
+        <p class="subtitle">Settling the Body</p>
+        <p class="prayer-text">
+            Feel your feet on the floor...<br>
+            the weight of your body in your chair...<br><br>
+            Let your shoulders drop.<br>
+            Unclench your jaw.<br><br>
+            Breathe in slowly... and release.
+        </p>
+    </div>
+
+    <!-- SLIDE 5: Heart -->
+    <div class="slide centered">
+        <p class="subtitle">Settling the Heart</p>
+        <p class="prayer-text">
+            What emotions have visited you today?<br><br>
+            Joy... frustration... worry... tenderness... fatigue...<br><br>
+            Don't judge what you find.<br>
+            Simply notice, as you would notice the weather.<br><br>
+            <span class="highlight">God sees your heart right now<br>and looks on you with love.</span>
+        </p>
+    </div>
+
+    <!-- SLIDE 6: Mind -->
+    <div class="slide centered">
+        <p class="subtitle">Settling the Mind</p>
+        <p class="prayer-text">
+            What thoughts have been circling?<br><br>
+            Imagine placing each thought gently<br>
+            on a leaf floating down a stream.<br><br>
+            You don't need to solve anything right now.<br><br>
+            For these 90 minutes, you are simply <span class="highlight">here</span>.
+        </p>
+    </div>
+
+    <!-- SLIDE 7: Opening Prayer Close -->
+    <div class="slide centered">
+        <p class="prayer-text">
+            <em>Loving God,</em><br><br>
+            <em>We thank you for the gift of marriage&mdash;<br>
+            for the one beside us.</em><br><br>
+            <em>Open our hearts to see what you want us to see.<br>
+            Give us courage to be honest<br>
+            and tenderness to receive one another.</em><br><br>
+            <em>Amen.</em>
+        </p>
+    </div>
+
+    <!-- SLIDE 8: Transition to Teaching -->
+    <div class="slide centered">
+        <h1>Showing Up</h1>
+        <p class="subtitle">What does it mean?</p>
+    </div>
+
+    <!-- SLIDE 9: Susan David Intro -->
+    <div class="slide">
+        <h2>Emotional Agility</h2>
+        <p>Susan David, psychologist at Harvard, spent her career studying how people navigate their inner world.</p>
+        <div class="quote">
+            "Showing up" means facing into our emotions with <span class="highlight">curiosity</span> and <span class="highlight">compassion</span>&mdash;rather than avoiding them or being overwhelmed by them.
+        </div>
+    </div>
+
+    <!-- SLIDE 10: Two Patterns -->
+    <div class="slide">
+        <h2>Two Common Patterns</h2>
+        <div class="two-column">
+            <div class="column">
+                <h3>Bottling</h3>
+                <ul>
+                    <li>Pushing emotions aside</li>
+                    <li>"I shouldn't feel this way"</li>
+                    <li>"It's not a big deal"</li>
+                    <li>Keeping the peace by keeping quiet</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Brooding</h3>
+                <ul>
+                    <li>Getting caught up in emotions</li>
+                    <li>Ruminating, replaying, stewing</li>
+                    <li>"They always do this..."</li>
+                    <li>Stuck in resentment or worry</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 11: Showing Up Alternative -->
+    <div class="slide centered">
+        <h2>The Alternative</h2>
+        <p style="text-align: center; font-size: 2rem;">
+            <span class="highlight">Showing up</span> is turning toward your emotions<br>with curiosity:
+        </p>
+        <p class="quote" style="text-align: center; border: none; padding: 0; margin-top: 40px;">
+            "What am I actually feeling right now?"<br><br>
+            "What is this feeling trying to tell me?"
+        </p>
+        <p style="text-align: center; margin-top: 40px; font-size: 1.5rem; color: #b8a88a;">
+            Holding emotions with compassion&mdash;<br>not drowning in them, not dismissing them.
+        </p>
+    </div>
+
+    <!-- SLIDE 12: Ignatian Connection -->
+    <div class="slide centered">
+        <h2>The Ignatian Connection</h2>
+        <p style="text-align: center;">
+            Ignatius figured this out 500 years ago.
+        </p>
+        <p style="text-align: center; margin-top: 40px; font-size: 1.6rem;">
+            The <span class="highlight">Examen</span> is fundamentally<br>a practice of "showing up."
+        </p>
+    </div>
+
+    <!-- SLIDE 13: Examen as Showing Up -->
+    <div class="slide">
+        <h2>The Examen Invites Us To:</h2>
+        <ul>
+            <li>Notice what we're feeling</li>
+            <li>Name the movements of consolation and desolation</li>
+            <li>Approach our inner life with honesty and without judgment</li>
+            <li>Bring it all before God</li>
+        </ul>
+        <p class="quote" style="margin-top: 40px;">
+            This is "showing up"&mdash;Ignatian style.
+        </p>
+    </div>
+
+    <!-- SLIDE 14: Bridge to Marriage -->
+    <div class="slide centered">
+        <h2>In Marriage</h2>
+        <p style="text-align: center; font-size: 1.8rem;">
+            "Showing up" to yourself is one thing.<br><br>
+            "Showing up" to another person&mdash;<br>
+            especially the one you share life with most intimately&mdash;<br>
+            requires even more <span class="highlight">courage</span>.
+        </p>
+    </div>
+
+    <!-- SLIDE 15: Reflection Questions -->
+    <div class="slide centered">
+        <p style="font-size: 1.6rem; color: #b8a88a; margin-bottom: 40px;">Consider quietly...</p>
+        <p style="text-align: center; font-size: 1.8rem;">
+            When was the last time you really <span class="highlight">showed up</span><br>
+            to what you were feeling in your marriage?
+        </p>
+        <p style="text-align: center; font-size: 1.8rem; margin-top: 50px;">
+            When was the last time you created space<br>
+            for your spouse to <span class="highlight">show up</span> to you?
+        </p>
+    </div>
+
+    <!-- SLIDE 16: Breakout 1 Intro -->
+    <div class="slide centered">
+        <div class="timer-note">18 minutes</div>
+        <h1>Couple Time</h1>
+        <p class="subtitle">First Breakout</p>
+        <p style="text-align: center; margin-top: 40px;">
+            You'll have 18 minutes together.<br>
+            Take turns. Listen with curiosity, not advice.
+        </p>
+    </div>
+
+    <!-- SLIDE 17: Breakout 1 Questions -->
+    <div class="slide">
+        <div class="timer-note">18 minutes</div>
+        <div class="breakout-box">
+            <h3>Questions for Your Conversation</h3>
+            <ul>
+                <li><strong>1.</strong> When it comes to difficult emotions, do you tend to be more of a <span class="highlight">"bottler"</span> or a <span class="highlight">"brooder"</span>? Share an example if comfortable.</li>
+                <li><strong>2.</strong> What makes it hard for you to "show up" to your own emotions? What gets in the way?</li>
+                <li><strong>3.</strong> What helps you feel safe enough to share what's really going on inside you&mdash;with yourself, with God, with your spouse?</li>
+            </ul>
+        </div>
+        <p class="small-text" style="text-align: center;">Take turns. Listen to understand, not to fix.</p>
+    </div>
+
+    <!-- SLIDE 18: Welcome Back -->
+    <div class="slide centered">
+        <h2>Welcome Back</h2>
+        <p style="text-align: center;">
+            Take a breath.<br><br>
+            You've just done something countercultural&mdash;<br>
+            slowing down and actually talking about<br>
+            your inner world with each other.
+        </p>
+    </div>
+
+    <!-- SLIDE 19: Couples Examen Intro -->
+    <div class="slide centered">
+        <h1>The Couples Examen</h1>
+        <p class="subtitle">A practice to take home</p>
+        <p style="text-align: center; margin-top: 40px; font-size: 1.5rem;">
+            10-15 minutes &bull; Weekly or Daily &bull; Together
+        </p>
+    </div>
+
+    <!-- SLIDE 20: Examen Step 1 -->
+    <div class="slide">
+        <h2>The Couples Examen</h2>
+        <div class="examen-step">
+            <div class="number">Step One</div>
+            <div class="title">Settle Together</div>
+            <div class="description">
+                Light a candle if you'd like. Take three slow breaths together.<br>
+                Acknowledge God's presence with you as a couple.
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 21: Examen Step 2 -->
+    <div class="slide">
+        <h2>The Couples Examen</h2>
+        <div class="examen-step">
+            <div class="number">Step Two</div>
+            <div class="title">Gratitude</div>
+            <div class="description">
+                Each person shares:<br>
+                <em>"One thing I'm grateful for today..."</em><br><br>
+                This can be anything&mdash;small or large, about your spouse or not.
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 22: Examen Step 3 -->
+    <div class="slide">
+        <h2>The Couples Examen</h2>
+        <div class="examen-step">
+            <div class="number">Step Three</div>
+            <div class="title">Review the Day with Honesty</div>
+            <div class="description">
+                Each person shares:<br>
+                <em>"Here's how I really am today..."</em><br><br>
+                Name the emotions present&mdash;not to fix them, just to be known.<br>
+                The listener's only job: <span class="highlight">receive, not repair</span>.
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 23: Examen Step 4 -->
+    <div class="slide">
+        <h2>The Couples Examen</h2>
+        <div class="examen-step">
+            <div class="number">Step Four</div>
+            <div class="title">Notice the Movements</div>
+            <div class="description">
+                Each person reflects:<br><br>
+                <em>"A moment I felt life/energy today was..."</em> (consolation)<br><br>
+                <em>"A moment I felt drained/heavy today was..."</em> (desolation)<br><br>
+                Share if comfortable.
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 24: Examen Step 5 -->
+    <div class="slide">
+        <h2>The Couples Examen</h2>
+        <div class="examen-step">
+            <div class="number">Step Five</div>
+            <div class="title">Look Toward Tomorrow</div>
+            <div class="description">
+                Each person shares:<br>
+                <em>"One thing I could use grace for tomorrow..."</em><br><br>
+                You might gently place a hand on your spouse as they share&mdash;<br>
+                a quiet intercession.
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 30px; color: #d4af37; font-style: italic;">
+            Close with: "Lord, bless our marriage. Amen."
+        </p>
+    </div>
+
+    <!-- SLIDE 25: Breakout 2 Intro -->
+    <div class="slide centered">
+        <div class="timer-note">22 minutes</div>
+        <h1>Practice Together</h1>
+        <p class="subtitle">Second Breakout</p>
+        <p style="text-align: center; margin-top: 40px;">
+            Pray the Couples Examen together.<br><br>
+            Don't worry about doing it perfectly.<br>
+            Just be honest. Be gentle with each other.
+        </p>
+    </div>
+
+    <!-- SLIDE 26: Breakout 2 Steps -->
+    <div class="slide">
+        <div class="timer-note">22 minutes</div>
+        <h2>The Couples Examen</h2>
+        <ul>
+            <li><strong>1. Settle</strong>&mdash;Breathe together. Acknowledge God's presence.</li>
+            <li><strong>2. Gratitude</strong>&mdash;Each share one thing you're grateful for.</li>
+            <li><strong>3. Honesty</strong>&mdash;"Here's how I really am..." (receive, don't fix)</li>
+            <li><strong>4. Movements</strong>&mdash;A moment of consolation... a moment of desolation...</li>
+            <li><strong>5. Tomorrow</strong>&mdash;"One thing I could use grace for..."</li>
+        </ul>
+        <p style="text-align: center; margin-top: 40px; color: #d4af37; font-style: italic;">
+            "Lord, bless our marriage. Amen."
+        </p>
+    </div>
+
+    <!-- SLIDE 27: Welcome Back 2 -->
+    <div class="slide centered">
+        <h2>Welcome Back</h2>
+        <p style="text-align: center;">
+            Thank you for giving this gift<br>
+            of presence to each other.
+        </p>
+    </div>
+
+    <!-- SLIDE 28: Sharing Prompt -->
+    <div class="slide centered">
+        <h2>Brief Sharing</h2>
+        <p style="text-align: center; font-size: 1.8rem;">
+            What was it like to pray the<br>
+            Couples Examen together?
+        </p>
+        <p style="text-align: center; margin-top: 40px; font-size: 1.5rem; color: #b8a88a;">
+            What did you notice?
+        </p>
+        <p class="small-text" style="text-align: center; margin-top: 50px;">
+            Just a sentence or two if you'd like to share.
+        </p>
+    </div>
+
+    <!-- SLIDE 29: Closing Prayer Intro -->
+    <div class="slide centered">
+        <h2>Closing Prayer</h2>
+        <p style="text-align: center;">
+            Let's close our time together in prayer.<br><br>
+            Get comfortable. Hold hands if you'd like.
+        </p>
+    </div>
+
+    <!-- SLIDE 30: Gratitude -->
+    <div class="slide centered">
+        <p class="subtitle">Gratitude</p>
+        <p class="prayer-text">
+            In the silence of your heart,<br>
+            call to mind one thing from tonight<br>
+            you're grateful for.<br><br>
+            A moment of connection...<br>
+            something your spouse shared...<br>
+            a new insight...<br><br>
+            Hold that gratitude gently before God.
+        </p>
+    </div>
+
+    <!-- SLIDE 31: Intentions -->
+    <div class="slide centered">
+        <p class="subtitle">Intentions</p>
+        <p class="prayer-text">
+            Bring before God any intentions<br>
+            on your heart tonight&mdash;<br><br>
+            for your marriage,<br>
+            for your family,<br>
+            for something you're carrying.<br><br>
+            Lift these to God in silence.
+        </p>
+    </div>
+
+    <!-- SLIDE 32: Blessing -->
+    <div class="slide centered">
+        <p class="prayer-text">
+            <em>God of love,</em><br><br>
+            <em>Bless these couples as they leave this time together.</em><br><br>
+            <em>Give them courage to keep showing up&mdash;<br>
+            to themselves, to each other, and to you.</em><br><br>
+            <em>When they are tempted to bottle, give them voice.<br>
+            When they are tempted to brood, give them perspective.<br>
+            When they need grace, pour it out in abundance.</em><br><br>
+            <em>We ask this in Jesus' name. Amen.</em>
+        </p>
+    </div>
+
+    <!-- SLIDE 33: Send Off -->
+    <div class="slide centered">
+        <h2>Go in Peace</h2>
+        <p style="text-align: center; margin-top: 30px;">
+            May you continue to show up&mdash;<br>
+            with curiosity, with compassion, with courage&mdash;<br>
+            to one another.
+        </p>
+        <div class="icon" style="margin-top: 50px;">&#10013;</div>
+    </div>
+
+    <!-- SLIDE 34: Take Home -->
+    <div class="slide centered">
+        <h2>Take Home</h2>
+        <p class="subtitle">The Couples Examen</p>
+        <ul style="text-align: left; max-width: 700px; margin: 0 auto;">
+            <li><strong>1. Settle</strong>&mdash;Three breaths together</li>
+            <li><strong>2. Gratitude</strong>&mdash;One thing each</li>
+            <li><strong>3. Honesty</strong>&mdash;"How I really am..."</li>
+            <li><strong>4. Movements</strong>&mdash;Consolation &amp; desolation</li>
+            <li><strong>5. Tomorrow</strong>&mdash;Where grace is needed</li>
+        </ul>
+        <p style="text-align: center; margin-top: 40px; font-size: 1.3rem; color: #b8a88a;">
+            10-15 minutes &bull; Weekly or Daily &bull; No screens
+        </p>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+        <button class="nav-btn" onclick="prevSlide()">&#8592; Back</button>
+        <button class="nav-btn" onclick="nextSlide()">Next &#8594;</button>
+    </div>
+
+    <div class="progress" id="progress"></div>
+    <div class="slide-counter" id="counter"></div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        const progress = document.getElementById('progress');
+        const counter = document.getElementById('counter');
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+            updateProgress();
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        function updateProgress() {
+            const percent = ((currentSlide + 1) / totalSlides) * 100;
+            progress.style.width = percent + '%';
+            counter.textContent = (currentSlide + 1) + ' / ' + totalSlides;
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                prevSlide();
+            }
+        });
+
+        // Click navigation (click right side to advance, left to go back)
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('.navigation')) return;
+            if (e.clientX > window.innerWidth / 2) {
+                nextSlide();
+            } else {
+                prevSlide();
+            }
+        });
+
+        // Initialize
+        updateProgress();
+    </script>
+
+</body>
+</html>
