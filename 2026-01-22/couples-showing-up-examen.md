@@ -101,7 +101,7 @@
 
 #### Introducing Emotional Agility (4 minutes)
 
-> *"Susan David is a psychologist at Harvard who has spent her career studying how people navigate their inner world — particularly their emotions. She developed a framework called 'Emotional Agility,' and tonight we're focusing on its foundation: what she calls 'showing up.'*
+> *"Susan David is a psychologist and author of the bestselling book Emotional Agility. Her TED talk on the topic has been viewed over 10 million times. Tonight we're focusing on the foundation of her framework: what she calls 'showing up.'*
 >
 > *So what does 'showing up' mean?"*
 
