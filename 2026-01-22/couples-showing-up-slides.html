@@ -275,6 +275,19 @@
         .grid-3 .card p {
             font-size: 1.2rem;
             margin-bottom: 0;
+            white-space: nowrap;
+        }
+
+        /* Bullet animation */
+        .bullet-animate {
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+        }
+
+        .bullet-animate.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
     </style>
 </head>
@@ -350,8 +363,7 @@
             What thoughts have been circling?<br><br>
             Imagine placing each thought gently<br>
             on a leaf floating down a stream.<br><br>
-            You don't need to solve anything right now.<br><br>
-            For these 90 minutes, you are simply <span class="highlight">here</span>.
+            You don't need to solve anything right now.
         </p>
     </div>
 
@@ -406,25 +418,25 @@
     </div>
 
     <!-- SLIDE 10: Two Patterns -->
-    <div class="slide">
+    <div class="slide" data-animate-bullets="true">
         <h2>Two Common Patterns</h2>
         <div class="two-column">
             <div class="column">
                 <h3>Bottling</h3>
                 <ul>
-                    <li>Pushing emotions aside</li>
-                    <li>"I shouldn't feel this way"</li>
-                    <li>"It's not a big deal"</li>
-                    <li>Keeping the peace by keeping quiet</li>
+                    <li class="bullet-animate">Pushing emotions aside</li>
+                    <li class="bullet-animate">"I shouldn't feel this way"</li>
+                    <li class="bullet-animate">"It's not a big deal"</li>
+                    <li class="bullet-animate">Keeping the peace by keeping quiet</li>
                 </ul>
             </div>
             <div class="column">
                 <h3>Brooding</h3>
                 <ul>
-                    <li>Getting caught up in emotions</li>
-                    <li>Ruminating, replaying, stewing</li>
-                    <li>"They always do this..."</li>
-                    <li>Stuck in resentment or worry</li>
+                    <li class="bullet-animate">Getting caught up in emotions</li>
+                    <li class="bullet-animate">Ruminating, replaying, stewing</li>
+                    <li class="bullet-animate">"They always do this..."</li>
+                    <li class="bullet-animate">Stuck in resentment or worry</li>
                 </ul>
             </div>
         </div>
@@ -460,25 +472,25 @@
     <div class="slide">
         <h2>The Examen Invites Us To:</h2>
         <ul>
-            <li>Notice what we're feeling</li>
-            <li>Name the movements of consolation and desolation</li>
-            <li>Approach our inner life with honesty and without judgment</li>
-            <li>Bring it all before God</li>
+            <li class="bullet-animate">Notice what we're feeling</li>
+            <li class="bullet-animate">Name the movements of consolation and desolation</li>
+            <li class="bullet-animate">Approach our inner life with honesty and without judgment</li>
+            <li class="bullet-animate">Bring it all before God</li>
         </ul>
         <p class="quote" style="margin-top: 40px;">
-            This is "showing up" -Ignatian style.
+            This is "showing up" - in the Ignatian way.
         </p>
     </div>
 
     <!-- SLIDE 14: Bridge to Marriage -->
     <div class="slide centered">
         <h2>In Marriage</h2>
-        <p style="text-align: center; font-size: 1.8rem;">
-            "Showing up" to yourself is one thing.<br><br>
-            "Showing up" to another person -<br>
+        <div style="text-align: center; font-size: 1.8rem;">
+            <p class="bullet-animate" style="margin-bottom: 40px;">"Showing up" to yourself is one thing.</p>
+            <p class="bullet-animate">"Showing up" to another person -<br>
             especially the one you share life with most intimately -<br>
-            requires even more <span class="highlight">courage</span>.
-        </p>
+            requires even more <span class="highlight">courage</span>.</p>
+        </div>
     </div>
 
     <!-- SLIDE 15: Colossians -->
@@ -543,17 +555,6 @@
             </ul>
         </div>
         <p class="small-text" style="text-align: center;">Take turns. Listen to understand, not to fix.</p>
-    </div>
-
-    <!-- SLIDE 18: Welcome Back -->
-    <div class="slide centered">
-        <h2>Welcome Back</h2>
-        <p style="text-align: center;">
-            Take a breath.<br><br>
-            You've just done something countercultural -<br>
-            slowing down and actually talking about<br>
-            your inner world with each other.
-        </p>
     </div>
 
     <!-- SLIDE 19: Couples Examen Intro -->
@@ -668,15 +669,6 @@
         </p>
     </div>
 
-    <!-- SLIDE 27: Welcome Back 2 -->
-    <div class="slide centered">
-        <h2>Welcome Back</h2>
-        <p style="text-align: center;">
-            Thank you for giving this gift<br>
-            of presence to each other.
-        </p>
-    </div>
-
     <!-- SLIDE 28: Sharing Prompt -->
     <div class="slide centered">
         <h2>Brief Sharing</h2>
@@ -687,18 +679,11 @@
         <p style="text-align: center; margin-top: 40px; font-size: 1.5rem; color: #b8a88a;">
             What did you notice?
         </p>
-        <p class="small-text" style="text-align: center; margin-top: 50px;">
-            Just a sentence or two if you'd like to share.
-        </p>
     </div>
 
     <!-- SLIDE 29: Closing Prayer Intro -->
     <div class="slide centered">
         <h2>Closing Prayer</h2>
-        <p style="text-align: center;">
-            Let's close our time together in prayer.<br><br>
-            Get comfortable. Hold hands if you'd like.
-        </p>
     </div>
 
     <!-- SLIDE 30: Closing Prayer -->
@@ -710,8 +695,6 @@
             <em>Bless them as they leave.<br>
             Give them courage to keep showing up -<br>
             to themselves, to each other, and to you.</em><br><br>
-            <em>May the Couples Examen become<br>
-            a holy rhythm in their homes.</em><br><br>
             <em>We ask this in Jesus' name. Amen.</em>
         </p>
     </div>
@@ -726,32 +709,8 @@
         <p style="text-align: center; margin-top: 50px; font-size: 1.5rem; color: #b8a88a;">
             When works for everyone?
         </p>
-    </div>
-
-    <!-- SLIDE 32: Send Off -->
-    <div class="slide centered">
-        <h2>Go in Peace</h2>
-        <p style="text-align: center; margin-top: 30px;">
-            May you continue to show up -<br>
-            with curiosity, with compassion, with courage -<br>
-            to one another.
-        </p>
-        <div class="icon" style="margin-top: 50px;">&#10013;</div>
-    </div>
-
-    <!-- SLIDE 34: Take Home -->
-    <div class="slide centered">
-        <h2>Take Home</h2>
-        <p class="subtitle">The Couples Examen</p>
-        <ul style="text-align: left; max-width: 700px; margin: 0 auto;">
-            <li><strong>1. Settle</strong> -Three breaths together</li>
-            <li><strong>2. Gratitude</strong> -One thing each</li>
-            <li><strong>3. Honesty</strong> -"How I really am..."</li>
-            <li><strong>4. Movements</strong> -Consolation &amp; desolation</li>
-            <li><strong>5. Tomorrow</strong> -Where grace is needed</li>
-        </ul>
-        <p style="text-align: center; margin-top: 40px; font-size: 1.3rem; color: #b8a88a;">
-            10-15 minutes &bull; Weekly or Daily &bull; No screens
+        <p style="text-align: center; margin-top: 60px; font-size: 1.1rem; color: #6b6b6b;">
+            <a href="https://lontok.github.io/family-learning-community/2026-01-22/couples-showing-up-slides.html" style="color: #d4af37;">lontok.github.io/family-learning-community/2026-01-22/couples-showing-up-slides.html</a>
         </p>
     </div>
 
@@ -771,7 +730,27 @@
         const progress = document.getElementById('progress');
         const counter = document.getElementById('counter');
 
+        function getBullets(slide) {
+            return slide.querySelectorAll('.bullet-animate');
+        }
+
+        function getNextHiddenBullet(slide) {
+            const bullets = getBullets(slide);
+            for (let bullet of bullets) {
+                if (!bullet.classList.contains('visible')) {
+                    return bullet;
+                }
+            }
+            return null;
+        }
+
+        function resetBullets(slide) {
+            const bullets = getBullets(slide);
+            bullets.forEach(b => b.classList.remove('visible'));
+        }
+
         function showSlide(n) {
+            resetBullets(slides[currentSlide]);
             slides[currentSlide].classList.remove('active');
             currentSlide = (n + totalSlides) % totalSlides;
             slides[currentSlide].classList.add('active');
@@ -779,7 +758,12 @@
         }
 
         function nextSlide() {
-            showSlide(currentSlide + 1);
+            const nextBullet = getNextHiddenBullet(slides[currentSlide]);
+            if (nextBullet) {
+                nextBullet.classList.add('visible');
+            } else {
+                showSlide(currentSlide + 1);
+            }
         }
 
         function prevSlide() {

@@ -137,7 +137,7 @@
 >
 > *Ignatius didn't say, 'Push down your feelings and just be holy.' He didn't say, 'Wallow in your desolation.' He said: Pay attention. Notice. Be curious about what's happening in your soul. Bring it to God.*
 >
-> *This is 'showing up' — Ignatian style."*
+> *This is 'showing up' - in the Ignatian way."*
 
 **Bridge to marriage:**
 > *"Tonight, we're going to apply this to our marriages. Because 'showing up' to yourself is one thing. But 'showing up' to another person — especially the person you share life with most intimately — requires even more courage.*
