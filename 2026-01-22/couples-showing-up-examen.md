@@ -41,7 +41,7 @@
 
 > *"Welcome, everyone. Tonight we're going to explore what it means to 'show up' — to ourselves, to God, and to each other in our marriages. We'll draw on both the wisdom of Ignatian spirituality that grounds our CLC community and insights from Susan David's work on emotional agility.*
 >
-> *Before we begin, I invite you to find a comfortable position. If you're sitting near your spouse, you might gently place a hand on their arm or hold hands — whatever feels natural."*
+> *"Before we begin, I invite you to find a comfortable position."*
 
 #### Grounding Prayer: Settling Body, Heart, and Mind (3 minutes)
 
