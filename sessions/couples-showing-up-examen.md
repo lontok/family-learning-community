@@ -19,13 +19,14 @@
 
 | Time | Segment | Duration |
 |------|---------|----------|
-| 0:00 | Opening & Grounding Prayer | 12 min |
-| 0:12 | Teaching: "Showing Up" & Ignatian Connection | 15 min |
-| 0:27 | First Couple Breakout | 18 min |
-| 0:45 | Return & Introducing the Couples Examen | 10 min |
-| 0:55 | Second Couple Breakout: Practicing the Examen | 22 min |
-| 1:17 | Return & Whole Group Sharing | 5 min |
-| 1:22 | Closing Prayer | 8 min |
+| 0:00 | Opening & Grounding Prayer | 10 min |
+| 0:10 | Check-In | 10 min |
+| 0:20 | Teaching: "Showing Up" & Ignatian Connection | 12 min |
+| 0:32 | First Couple Breakout | 16 min |
+| 0:48 | Return & Introducing the Couples Examen | 10 min |
+| 0:58 | Second Couple Breakout: Practicing the Examen | 20 min |
+| 1:18 | Return & Whole Group Sharing | 5 min |
+| 1:23 | Closing Prayer | 7 min |
 | 1:30 | End |  |
 
 ---
@@ -34,7 +35,7 @@
 
 ---
 
-### OPENING & GROUNDING PRAYER (12 minutes)
+### OPENING & GROUNDING PRAYER (10 minutes)
 
 #### Welcome (2 minutes)
 
@@ -42,7 +43,7 @@
 >
 > *Before we begin, I invite you to find a comfortable position. If you're sitting near your spouse, you might gently place a hand on their arm or hold hands — whatever feels natural."*
 
-#### Grounding Prayer: Settling Body, Heart, and Mind (10 minutes)
+#### Grounding Prayer: Settling Body, Heart, and Mind (8 minutes)
 
 **🎵 MUSIC CUE**: Begin gentle instrumental music
 
@@ -76,9 +77,25 @@
 
 ---
 
-### TEACHING: "SHOWING UP" & THE IGNATIAN CONNECTION (15 minutes)
+### CHECK-IN (10 minutes)
 
-#### Introducing Emotional Agility (7 minutes)
+> *"Before we dive into our theme for tonight, let's take some time to check in with one another. As is our CLC practice, I'll offer three questions. Share as you feel comfortable — just a few sentences each so everyone has a chance to speak."*
+
+**Check-In Questions:**
+
+> *"1. How are you arriving tonight?"*
+>
+> *"2. What's been bringing you life lately? What's felt heavy?"*
+>
+> *"3. Where have you noticed God — in prayer, in others, in the ordinary?"*
+
+**FACILITATOR NOTE**: Go around the group, allowing each person (not couple) to share briefly. Keep it moving — about 1 minute per person. You may need to gently keep time if someone goes long.
+
+---
+
+### TEACHING: "SHOWING UP" & THE IGNATIAN CONNECTION (12 minutes)
+
+#### Introducing Emotional Agility (5 minutes)
 
 > *"Susan David is a psychologist at Harvard who has spent her career studying how people navigate their inner world — particularly their emotions. She developed a framework called 'Emotional Agility,' and tonight we're focusing on its foundation: what she calls 'showing up.'*
 >
@@ -104,7 +121,7 @@
 >
 > *'Showing up' is the alternative. It means turning toward your emotions with curiosity: 'What am I actually feeling right now? What is this feeling trying to tell me?' It means holding your emotions with compassion — not drowning in them, not dismissing them."*
 
-#### The Ignatian Connection (8 minutes)
+#### The Ignatian Connection (7 minutes)
 
 > *"Here's what's beautiful for us as a CLC community: Ignatius figured this out 500 years ago.*
 >
@@ -126,15 +143,15 @@
 > *And when was the last time you created space for your spouse to show up to you?"*
 
 **Transition:**
-> *"In a moment, I'm going to send you into breakout rooms — just you and your spouse. You'll have about 18 minutes for your first conversation. Before I send you, let me give you the questions."*
+> *"In a moment, I'm going to send you into breakout rooms — just you and your spouse. You'll have about 16 minutes for your first conversation. Before I send you, let me give you the questions."*
 
 ---
 
-### FIRST COUPLE BREAKOUT: Understanding How We Show Up (18 minutes)
+### FIRST COUPLE BREAKOUT: Understanding How We Show Up (16 minutes)
 
 #### Setup (before sending to breakouts)
 
-> *"You'll have 18 minutes together. Here are your questions — take them one at a time, and give each person space to share. Listen with curiosity, not problem-solving.*
+> *"You'll have 16 minutes together. Here are your questions — take them one at a time, and give each person space to share. Listen with curiosity, not problem-solving.*
 >
 > *I'll put these in the chat so you have them."*
 
@@ -142,7 +159,7 @@
 
 **Post in chat:**
 ```
-BREAKOUT #1 QUESTIONS (18 minutes)
+BREAKOUT #1 QUESTIONS (16 minutes)
 
 1. When it comes to difficult emotions, do you tend to be more of a "bottler" (pushing aside, minimizing) or a "brooder" (getting stuck, replaying)? Share an example if you're comfortable.
 
@@ -157,7 +174,7 @@ Take turns. Listen with curiosity, not advice.
 
 **🎵 MUSIC CUE**: Optional — have music playing as they enter breakouts
 
-**FACILITATOR NOTE**: Set Zoom timer for 18 minutes with 2-minute warning.
+**FACILITATOR NOTE**: Set Zoom timer for 16 minutes with 2-minute warning.
 
 ---
 
@@ -215,11 +232,11 @@ Close with a simple prayer: "Lord, bless our marriage. Amen."
 
 > *"Notice what's happening here: each movement is an invitation to 'show up.' You're not fixing each other. You're not giving advice. You're witnessing each other — with curiosity and compassion — and inviting God into your marriage.*
 >
-> *In a moment, you're going to actually practice this together. You'll have about 22 minutes — enough time to go through all five movements without rushing."*
+> *In a moment, you're going to actually practice this together. You'll have about 20 minutes — enough time to go through all five movements without rushing."*
 
 ---
 
-### SECOND COUPLE BREAKOUT: Practicing the Couples Examen (22 minutes)
+### SECOND COUPLE BREAKOUT: Practicing the Couples Examen (20 minutes)
 
 #### Setup
 
@@ -231,7 +248,7 @@ Close with a simple prayer: "Lord, bless our marriage. Amen."
 
 **Post in chat:**
 ```
-BREAKOUT #2: PRAY THE COUPLES EXAMEN TOGETHER (22 minutes)
+BREAKOUT #2: PRAY THE COUPLES EXAMEN TOGETHER (20 minutes)
 
 1. SETTLE — Breathe together. Acknowledge God's presence.
 
@@ -254,7 +271,7 @@ Take your time. No need to rush.
 
 **🎵 MUSIC CUE**: Gentle instrumental in breakouts (if possible) or as they transition
 
-**FACILITATOR NOTE**: Set Zoom timer for 22 minutes with 2-minute warning.
+**FACILITATOR NOTE**: Set Zoom timer for 20 minutes with 2-minute warning.
 
 ---
 
@@ -279,7 +296,7 @@ Take your time. No need to rush.
 
 ---
 
-### CLOSING PRAYER (8 minutes)
+### CLOSING PRAYER (7 minutes)
 
 #### Transition
 
@@ -389,7 +406,7 @@ The Couples Examen is showing up to each other.
 ### Zoom Setup
 - Create breakout rooms set to manual assignment (1 couple per room)
 - Enable "Allow participants to return to main session at any time"
-- Set timers: 18 min for Breakout #1, 22 min for Breakout #2
+- Set timers: 16 min for Breakout #1, 20 min for Breakout #2
 - Have questions/Examen steps ready to paste into chat
 
 ### Pacing Tips
