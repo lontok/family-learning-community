@@ -63,15 +63,21 @@
 >
 > *God sees your heart right now — sees everything in it — and looks on you with love."*
 
-**Mind (3 minutes)**:
+**Mind**:
 > *"Finally, notice your mind. What thoughts have been circling? What mental to-do lists are still running? What conversations are you replaying?*
 >
 > *Imagine placing each thought gently on a leaf floating down a stream. You don't need to solve anything right now. You don't need to figure anything out. For these 90 minutes, you are simply here.*
 >
-> *In the spirit of St. Ignatius, let us ask for the grace we need tonight..."*
+> *In the spirit of St. Ignatius, let us ask for the grace we need tonight. We echo the words of Psalm 139..."*
+
+**Scripture — Psalm 139:23-24**:
+> *"Probe me, God, know my heart;*
+> *try me, know my thoughts.*
+> *See if there is a wicked path in me;*
+> *lead me along an ancient path."*
 
 **Closing the prayer**:
-> *"Loving God, we thank you for the gift of marriage — for the one sitting beside us or near us. We ask for the grace to show up fully tonight: to ourselves, to you, and to each other. Open our hearts to see what you want us to see. Give us courage to be honest and tenderness to receive one another. We ask this through Christ our Lord. Amen."*
+> *"Loving God, we invite you to search our hearts tonight. We thank you for the gift of marriage — for the one sitting beside us or near us. We ask for the grace to show up fully: to ourselves, to you, and to each other. Open our hearts to see what you want us to see. Give us courage to be honest and tenderness to receive one another. We ask this through Christ our Lord. Amen."*
 
 **🎵 MUSIC CUE**: Fade music
 
@@ -138,9 +144,21 @@
 **Bridge to marriage:**
 > *"Tonight, we're going to apply this to our marriages. Because 'showing up' to yourself is one thing. But 'showing up' to another person — especially the person you share life with most intimately — requires even more courage.*
 >
+> *St. Paul gives us a vision of what this looks like in his letter to the Colossians..."*
+
+**Scripture — Colossians 3:12-14**:
+> *"Put on then, as God's chosen ones, holy and beloved, heartfelt compassion, kindness, humility, gentleness, and patience, bearing with one another and forgiving one another, if one has a grievance against another; as the Lord has forgiven you, so must you also do. And over all these put on love, that is, the bond of perfection."*
+
+> *"This is what 'showing up' looks like in marriage — clothing ourselves in compassion and kindness, bearing with one another, forgiving as we have been forgiven.*
+>
 > *When was the last time you really showed up to what you were feeling in your marriage — not bottling, not brooding, but honestly acknowledging: 'This is what's happening in me'?*
 >
 > *And when was the last time you created space for your spouse to show up to you?"*
+
+**Scripture — Romans 12:15**:
+> *"Rejoice with those who rejoice, weep with those who weep."*
+
+> *"This is the heart of emotional presence — not fixing, not advising, just being with. Rejoicing when your spouse rejoices. Weeping when they weep."*
 
 **Transition:**
 > *"In a moment, I'm going to send you into breakout rooms — just you and your spouse. You'll have about 10 minutes for your first conversation. Before I send you, let me give you the questions."*
